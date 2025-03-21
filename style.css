@@ -359,6 +359,16 @@ hr{
 }
 
 /* Responsive Design */
+@media (max-width: 1200px){
+    .specification-item-img {
+        display: none;
+    }
+    .specification-item-list{
+        justify-content: center;
+        padding-left: 0px;
+    }
+}
+
 @media (max-width: 768px) {
     .nav {
         flex-direction: column;
@@ -372,13 +382,56 @@ hr{
         padding: 10px 0;
     }
     .nav-item {
-        margin: 5px 0;
+        margin: 0; 
     }
 
-    .cc-help {
+    .car-help {
         margin-left: 0;
         justify-content: center;
     }
+    #help-btn{
+        margin-left: 5px;
+        
+    }
+    /* .spot{
+        flex-direction: column;
+        text-align: center;
+    } */
+
+}
+@media (max-width: 480px){
+    .nav {
+        font-size: 16px;
+    }
+    .nav-items {
+        flex-direction: column; /* Ensures nav stays horizontal */
+        gap: 15px;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .nav-btn {
+        font-size: 14px;
+    }
+
+    .search-btn {
+        font-size: 14px;
+    }
+
+    .car-help{
+        flex-direction: column;
+        text-align: center;
+    }
+    .allCar-btn{
+        font-size: smaller;
+    }
+    .Details-container {
+        transform: translate(0%,0%);
+    }
+    h1{
+        font-size:1.7em;
+    }
+
+
 }
 .footer {
     background-color: #111;
@@ -491,20 +544,5 @@ hr{
 }
 
 @media (max-width: 480px) {
-    .nav {
-        font-size: 16px;
-    }
-    .nav-items {
-        flex-direction: column; /* Ensures nav stays horizontal */
-        gap: 15px;
-        text-align: center;
-        padding: 10px 0;
-    }
-    .nav-btn {
-        font-size: 14px;
-    }
 
-    .search-btn {
-        font-size: 14px;
-    }
 }
