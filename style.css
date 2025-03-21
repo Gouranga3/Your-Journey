@@ -1,4 +1,5 @@
 /* Global Styles */
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
     margin: 0;
     padding: 0;
@@ -21,24 +22,34 @@ li {
 a {
     text-decoration: none;
     color: black;
+    padding: 2px;
 }
-button:hover{
-    background-color: rgb(13, 127, 172);
-}
-
-.logo{
-    padding: 7px;
-    border-radius: 13px;
-    border-style: none;
+a:hover{
+    padding: 2px;
     background: #2D6A4F;
     color: white;
+    
+
+}
+button{
+    background: #2D6A4F;
+}
+button:hover{
+    background: rgb(13, 127, 172) !important;
 }
 
+.Logo{
+    color: #2D6A4F;
+    list-style: none;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: Merriweather;
+}
 .nav-btn {
     padding: 7px;
     border-radius: 13px;
     border-style: none;
-    background: rgb(13, 127, 172);
+    background: #2D6A4F;
     color: white;
     font-size: 16px;
     cursor: pointer;
@@ -78,7 +89,7 @@ button:hover{
 .car-help {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin: 15px;
 }
 
@@ -91,28 +102,25 @@ button:hover{
 .spot-details{
     margin:0 5px ;
 }
-.cc {
-    padding: 5px;
-    margin-left: 20px;
-}
 
-.cc-help {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: auto;
-}
-
-#allCar-btn, #help-btn {
-    padding: 5px 10px;
+.allCar-btn{
+    margin: 2px 5px;
+    padding: 5px 3px;
     font-size: 16px;
     border-radius: 7px;
     border: none;
     cursor: pointer;
 }
 
-#allCar-btn {
-    background: blue;
+.allCar-btn {
+    background: #2D6A4F;
     color: aliceblue;
+
+}
+
+#help-btn{
+    margin-left: auto;
+    
 }
 
 .find {
@@ -125,7 +133,7 @@ button:hover{
     margin: 10px;
     padding: 7px;
     font-size: 16px;
-    background: blue;
+    background: #2D6A4F;
     color: aliceblue;
     border: none;
     border-radius: 7px;
@@ -139,11 +147,18 @@ button:hover{
     /* z-index: -60%; */
     transform: translate(0%,-50%);
 }
+#hidden-input{
+    display: none;
+}
 
 .slider-title {
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
+}
+
+.slider-title h1{
+    color: #2D6A4F;
 }
 
 .slide img {
@@ -206,6 +221,9 @@ button:hover{
 .car-name,.available-location{
     margin: 6px 10px;
 }
+.title-cardlist h1{
+    color: #2D6A4F;
+}
 hr{
     display: block;
     height: 2px;
@@ -233,7 +251,7 @@ hr{
 .bookCar{
     margin: 0px 7px 10px 7px;
     padding: 10px;
-    background-color: blue;
+    background-color: #2D6A4F;
     border: none;
     border-radius: 5px;
     color: white;
@@ -255,7 +273,7 @@ hr{
     margin: 12px;
     padding: 9px;
     color: white;
-    background-color: blue;
+    background: #2D6A4F;
     border: none;
     border-radius: 11px;
     font-size: 20px;
@@ -276,7 +294,7 @@ hr{
 }
 .specification-item-list button{
     padding: 5px;
-    background-color: blue;
+    background: #2D6A4F;
     color: white;
     border: none;
     border-radius: 11px;
@@ -383,11 +401,19 @@ hr{
     min-width: 250px;
 }
 
-.footer__logo a {
-    font-size: 24px;
-    font-weight: bold;
-    color: #fff;
-    text-decoration: none;
+.logo{
+    padding: 7px;
+    border-radius: 13px;
+    border-style: none;
+    background: #2D6A4F;
+    color: white;
+    font-family: Merriweather;
+}
+.logo:hover{
+    padding: 7px;
+    border-radius: 13px;
+    background: white;
+    color: #2D6A4F;
 }
 
 .footer__col p {

@@ -8,17 +8,16 @@
     
 </head>
 <body>
-    <div class="Home">
+    <div class="Home" id="Home">
         <nav class="nav">
             <!-- <button class="nav-btn" id="logobtn">Your Journey</button> -->
-            <a href="#" class="logo">Your Journey</a>
+            <a href="#" class="Logo">Your Journey</a>
             <ul class="nav-items">
-                <li class="nav-item"><a href="">Home &#9662;</a></li>
-                <li class="nav-item"><a href="">Brands &#9662;</a></li>
-                <li class="nav-item"><a href="">Cars &#9662;</a></li>
-                <li class="nav-item"><a href="">News &#9662;</a></li>
-                <li class="nav-item"><a href="">Dashboard &#9662;</a></li>
-                <li class="nav-item"><a href="">Contact Us &#9662;</a></li>
+                <li class="nav-item"><a href="#Home">Home &#9662;</a></li>
+                <li class="nav-item"><a href="#Brands">Brands &#9662;</a></li>
+                <li class="nav-item"><a href="#Cars">Cars &#9662;</a></li>
+                <li class="nav-item"><a href="#Services">Services &#9662;</a></li>
+                <li class="nav-item"><a href="#Contact-Us">Contact Us &#9662;</a></li>
             </ul>
             <button class="nav-btn" id="signInbtn">Sign in &rarr;</button>
           </nav>
@@ -28,11 +27,11 @@
         <div class="Details">
             <div class="Details-container">
                     <div class="car-help">
-                        <button id="allCar-btn">All cars</i></button>
-                        <li class="cc"><a href="">New cars <i class="fa-solid fa-caret-down"></i></a></li> 
-                        <li class="cc"><a href="">Used cars <i class="fa-solid fa-caret-down"></i></a></li> 
-                        <li class="cc-help"><button id="help-btn"><i class="fa-regular fa-user"></i> Need help? <i class="fa-solid fa-caret-down"></i></button></li> 
-                    </div> <!--<a href="">Need help?</a>-->
+                        <button class="allCar-btn">All cars <i class="fa-solid fa-caret-down"></i></button>
+                        <button class="allCar-btn">New cars <i class="fa-solid fa-caret-down"></i></button>
+                        <button class="allCar-btn">Used cars <i class="fa-solid fa-caret-down"></i></button>
+                        <button class="allCar-btn" id="help-btn"><i class="fa-regular fa-user"></i> Need help? <i class="fa-solid fa-caret-down"></i></button>
+                    </div>
                     <div class="spot">
                        <li class="spot-details"><a href=""><i class="fa-solid fa-location-dot"></i> Pick Up Location <i class="fa-solid fa-caret-down"></i></a></li>
                        <li class="spot-details"><a href=""><i class="fa-solid fa-location-dot"></i> Drop off Location <i class="fa-solid fa-caret-down"></i></a></li> 
@@ -45,7 +44,7 @@
             </div>
         </div>
     </div>
-    <div class="slider">
+    <div class="slider" id="Brands">
       <div class="slider-title">
           <h1>Premium Brands</h1>
       </div>
@@ -106,10 +105,10 @@
         </div>
       </div>
     </div>
-    <div class="container swiper">
+    <div class="container swiper" id="Cars">
       <div class="slider-wrapper">
 
-        <div class="title-cardlist"><h1>Most Searched Vehicles</h1></div>
+        <div class="title-cardlist"><h1>Top Trending Vehicles</h1></div>
         <div class="title-cardlist"><p>Rent with confidence, Drive in Style</p></div>
         
         <div class="card-list swiper-wrapper">
@@ -128,7 +127,7 @@
               <div class="feature"><i class="fa-solid fa-arrows-to-dot"></i> 5 Seats</div>
             </div>
             <div class="rs-buy">
-              <span class="rs">From <span style="font-size: 20px;font-weight:bold;"><i class="fa-solid fa-indian-rupee-sign"></i>559/hr</span></span>
+              <span class="rs">From <span style="font-size: 20px;font-weight:bold;"><i class="fa-solid fa-indian-rupee-sign"></i>959/hr</span></span>
               <button class="bookCar">Book Now</button>
             </div>
           </div>
@@ -148,7 +147,7 @@
               <div class="feature"><i class="fa-solid fa-arrows-to-dot"></i> 5 Seats</div>
             </div>
             <div class="rs-buy">
-              <span class="rs">From <span style="font-size: 20px;font-weight:bold;"><i class="fa-solid fa-indian-rupee-sign"></i>559/hr</span></span>
+              <span class="rs">From <span style="font-size: 20px;font-weight:bold;"><i class="fa-solid fa-indian-rupee-sign"></i>899/hr</span></span>
               <button class="bookCar">Book Now</button>
             </div>
           </div>
@@ -168,7 +167,7 @@
               <div class="feature"><i class="fa-solid fa-arrows-to-dot"></i> 5 Seats</div>
             </div>
             <div class="rs-buy">
-              <span class="rs">From <span style="font-size: 20px;font-weight:bold;"><i class="fa-solid fa-indian-rupee-sign"></i>559/hr</span></span>
+              <span class="rs">From <span style="font-size: 20px;font-weight:bold;"><i class="fa-solid fa-indian-rupee-sign"></i>819/hr</span></span>
               <button class="bookCar">Book Now</button>
             </div>
           </div>
@@ -181,7 +180,7 @@
       </div>
     </div>
 
-    <div class="specification-container">
+    <div class="specification-container" id="Services">
       <div class="specification-items">
         <div class="specification-item-img">
           <img src="./carDriving.jpg" alt="">
@@ -208,17 +207,17 @@
     </div>
     <section class="how-it-works">
         <h3>HOW IT WORKS</h3>
-        <h1>Presenting Your New Go-To Car Rental Experience</h1>
+        <h1>Welcome to Your Premier Car Rental Experience</h1>
         <div class="steps">
             <div class="step">
                 <i class="fas fa-map-marker-alt"></i>
                 <h2>Choose a Location</h2>
-                <p>Select the ideal destination to begin your journey with ease</p>
+                <p>choose the perfect destination to start your journey comfortably</p>
             </div>
             <div class="step">
                 <i class="fas fa-car"></i>
                 <h2>Choose Your Vehicle</h2>
-                <p>Browse our fleet and find the perfect car for your needs</p>
+                <p>Explore our fleet and choose the ideal car to suit your needs</p>
             </div>
             <div class="step">
                 <i class="fas fa-check-circle"></i>
@@ -228,17 +227,17 @@
             <div class="step">
                 <i class="fas fa-route"></i>
                 <h2>Begin Your Journey</h2>
-                <p>Start your adventure with confidence and ease</p>
+                <p>Begin your journey with confidence and comfort</p>
             </div>
         </div>
     </section>
 
 
-    <footer class="footer" id="contact">
+    <footer class="footer" id="Contact-Us">
         <div class="section__container footer__container">
           <div class="footer__col">
             <div class="footer__logo">
-              <a href="#" class="logo">Your Journey</a>
+              <a href="#Home" class="logo">Your Journey</a>
             </div>
             <p>
                 "Embark on a journey with ease—book a ride that blends comfort, reliability, and seamless convenience, all at your fingertips."
